@@ -1,0 +1,1 @@
+FOR (x:City) IDENTIFIER y, x.name  WITHIN (x)-[:isPartOf]->(y:Country)

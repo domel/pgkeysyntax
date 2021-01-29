@@ -1,0 +1,1 @@
+FOR (x:Country) EXCLUSIVE MANDATORY x.name

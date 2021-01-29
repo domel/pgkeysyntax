@@ -1,0 +1,1 @@
+FOR y WITHIN ()-[y:studyAt]->() IDENTIFIER x, y.classYear, z WITHIN (x:Person)-[y]->(z:University)

@@ -1,0 +1,1 @@
+FOR (x:Forum) EXCLUSIVE z WITHIN (x)-[:containerOf]->(z:Post)

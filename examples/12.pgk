@@ -1,0 +1,1 @@
+FOR y WITHIN (:Country)-[y:isPartOf]->(:Continent) EXCLUSIVE x, z WITHIN (x:Country)-[y]->(z:Continent)

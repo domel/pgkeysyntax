@@ -1,0 +1,1 @@
+FOR x WITHIN (x:Forum)-[:hasMember]->(:Person) IDENTIFIER p WITHIN (x)-[:hasModerator]->(p:Person)

@@ -1,0 +1,1 @@
+FOR (z:Post) MANDATORY SINGLETON x WITHIN (x:Forum)-[:containerOf]->(z)

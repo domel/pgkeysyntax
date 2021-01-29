@@ -1,0 +1,1 @@
+FOR y WITHIN ()-[y:studyAt]->() WHERE y.classYear > 1970 IDENTIFIER x, y.classYear, z WITHIN (x:Person)-[y]->(z:University)

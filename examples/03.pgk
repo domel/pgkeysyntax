@@ -1,0 +1,1 @@
+FOR (x:Country) IDENTIFIER x.name
